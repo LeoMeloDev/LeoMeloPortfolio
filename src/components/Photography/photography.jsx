@@ -1,34 +1,39 @@
 import React from "react";
+import CM1 from '/Users/leomelo/Documents/react-projects/my-site-v1-2022/src/img/DSCF0110.jpg';
+import CM2 from '/Users/leomelo/Documents/react-projects/my-site-v1-2022/src/img/DSCF0248.jpg';
+import CM3 from '/Users/leomelo/Documents/react-projects/my-site-v1-2022/src/img/DSCF0441.jpg';
+import CM4 from '/Users/leomelo/Documents/react-projects/my-site-v1-2022/src/img/DSCF0806.jpg';
+import CM5 from '/Users/leomelo/Documents/react-projects/my-site-v1-2022/src/img/DSCF2364.jpg';
+import CM6 from '/Users/leomelo/Documents/react-projects/my-site-v1-2022/src/img/DSCF2496.jpg';
+import CM7 from '/Users/leomelo/Documents/react-projects/my-site-v1-2022/src/img/DSCF2941.jpg';
+import CM8 from '/Users/leomelo/Documents/react-projects/my-site-v1-2022/src/img/DSCF4543.jpg';
+import CM9 from '/Users/leomelo/Documents/react-projects/my-site-v1-2022/src/img/DSCF4602.jpg';
+import CM10 from '/Users/leomelo/Documents/react-projects/my-site-v1-2022/src/img/DSCF4750.jpg';
+import CM11 from '/Users/leomelo/Documents/react-projects/my-site-v1-2022/src/img/DSCF4926.jpg';
+import CM12 from '/Users/leomelo/Documents/react-projects/my-site-v1-2022/src/img/DSCF9940.jpg';
 
 class Photography extends React.Component {
     render() {
       return (
           <div className="photography">
                 <h3 className="photography-title">photography_</h3>
-                <p className="photography-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum sapien sed purus viverra, quis posuere mauris malesuada. Morbi ex dolor, luctus sodales tristique vitae, tristique non lorem. Vestibulum in lacinia erat, a finibus arcu. Nunc neque lacus, volutpat vel leo sit amet, pretium pulvinar ligula.</p>
+                <p className="photography-copy">Photography for events, weddings and content creation. Equipment includes Fujifilm cameras XT-3 and XT-4.</p>
                 
                 <hr/>
 
-                {/* Wedding */}
-                <div className="project">
-                    <div className="project-left">
-                        <h4 className="project-title">Fernanda &amp; Richard Civil Wedding</h4>
-                        <p className="project-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum sapien sed purus viverra, quis posuere mauris malesuada. Morbi ex dolor, luctus sodales tristique vitae, tristique non lorem. Vestibulum in lacinia erat, a finibus arcu. Nunc neque lacus, volutpat vel leo sit amet, pretium pulvinar ligula.</p> 
-                    </div>
-                    <div className="project-right">
-                        <iframe src="https://player.vimeo.com/video/582677822?h=01b8eb274e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Fernanda &amp;amp; Richard Civil Wedding"></iframe>
-                    </div>
-                </div>
-         
-                {/* Bucket List Music UK */}
-                <div className="project">
-                    <div className="project-left">
-                        <h4 className="project-title">Sloane Square - ft. The London Ginger - a.k.a. Raquel Sol</h4>
-                        <p className="project-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum sapien sed purus viverra, quis posuere mauris malesuada. Morbi ex dolor, luctus sodales tristique vitae, tristique non lorem. Vestibulum in lacinia erat, a finibus arcu. Nunc neque lacus, volutpat vel leo sit amet, pretium pulvinar ligula.</p> 
-                    </div>
-                    <div className="project-right">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/IXUCk4P70rM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                <div className='img-gallery'>
+                    <img className="img-in-gallery" alt="Curating Moments images" src={CM1} />
+                    <img className="img-in-gallery" alt="Curating Moments images" src={CM2} />
+                    <img className="img-in-gallery" alt="Curating Moments images" src={CM3} />
+                    <img className="img-in-gallery" alt="Curating Moments images" src={CM4} />
+                    <img className="img-in-gallery" alt="Curating Moments images" src={CM5} />
+                    <img className="img-in-gallery" alt="Curating Moments images" src={CM6} />
+                    <img className="img-in-gallery" alt="Curating Moments images" src={CM7} />
+                    <img className="img-in-gallery" alt="Curating Moments images" src={CM8} />
+                    <img className="img-in-gallery" alt="Curating Moments images" src={CM9} />
+                    <img className="img-in-gallery" alt="Curating Moments images" src={CM10} />
+                    <img className="img-in-gallery" alt="Curating Moments images" src={CM11} />
+                    <img className="img-in-gallery" alt="Curating Moments images" src={CM12} />
                 </div>
 
                

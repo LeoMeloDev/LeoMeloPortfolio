@@ -25,7 +25,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-  
 
 }
 ol, ul {
@@ -72,18 +71,34 @@ table {
   margin-left: 30px;
 }
 
+
+
 .nav-link {
   font-family: 'Courier Prime', monospace;
   color: #333;
-  font-size: 18px;
+  font-size: 15px;
+  padding: 15px 20px;
   text-transform: uppercase;
-  padding: 20px 30px;
   text-decoration: none;
 }
 
 .nav-link:hover {
   background-color: #333;
   color: #fff;
+}
+
+.nav-item-contact {
+  font-family: 'Courier Prime', monospace;
+  background-color: #FFC145;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.nav-item-contact a {
+  color: #333;
 }
 
 /* HERO */
@@ -205,7 +220,7 @@ table {
 }
 
 .visual-design hr {
-  margin: 80px 80px 80px 0px;
+  margin: 30px 0px 80px 0px;
 }
 
 .visual-design-title {
@@ -220,6 +235,7 @@ table {
   color: #333;
   font-size: 18px;
   padding-top: 20px;
+  line-height: 1.375;
 
 }
 
@@ -233,6 +249,7 @@ table {
   color: #333;
   font-size: 24px;
   letter-spacing: 3px;
+  font-weight: 700;
 }
 
 .project-copy {
@@ -241,6 +258,7 @@ table {
   font-size: 18px;
   padding-top: 20px;
   padding-right: 50px;
+  line-height: 1.375;
 }
 
 .project-img {
@@ -257,7 +275,7 @@ table {
 }
 
 .web-development hr {
-  margin: 80px 80px 80px 0px;
+  margin: 30px 0px 80px 0px;
 }
 
 .web-development-title {
@@ -272,6 +290,7 @@ table {
   color: #333;
   font-size: 18px;
   padding-top: 20px;
+  line-height: 1.375;
 
 }
 
@@ -294,7 +313,7 @@ table {
 }
 
 .video-work hr {
-  margin: 80px 80px 80px 0px;
+  margin: 30px 0px 80px 0px;
 }
 
 .video-work-title {
@@ -321,7 +340,7 @@ table {
 }
 
 .sound-editing hr {
-  margin: 80px 80px 80px 0px;
+  margin: 30px 0px 80px 0px;
 }
 
 .sound-editing-title {
@@ -347,7 +366,7 @@ table {
 }
 
 .photography hr {
-  margin: 80px 80px 80px 0px;
+  margin: 30px 0px 30px 0px;
 }
 
 .photography-title {
@@ -363,4 +382,811 @@ table {
   font-size: 18px;
   padding-top: 20px;
 
+}
+
+.img-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.img-in-gallery {
+  width: 49%;
+  padding: .5%;
+}
+
+/* FOOTER */
+
+.footer {
+  margin: 60px auto;
+  max-width: 1200px;
+}
+
+.footer hr {
+  margin: 80px 0px 30px 0px;
+}
+
+
+/****************
+
+      MOBILE 
+
+****************/
+
+
+@media screen and (max-width: 796px) {
+
+  body {
+    overflow: none;
+
+  }
+
+  .navbar {
+    margin:  30px;
+    max-width: 100%;
+    padding: 50px 0px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .navbar-brand {
+    font-family: 'Jules', serif;
+    color: #333;
+    font-size: 32px;
+    text-decoration: none;
+    text-align: left;
+    padding-bottom: 30px;
+    
+  }
+
+  .nav-item {
+    padding: 10px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  
+  .nav-link {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 25px 0px;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    background-color: transparent;
+    color: #333;
+  }
+
+  .nav-item-btn {
+    padding: 10px;
+  }
+
+    /* HERO */
+
+  .hero {
+    margin: 60px 30px;
+    display: flex;
+  }
+
+  .hero-left {
+    width: 100%;
+  }
+
+  .hero-right {
+    display: none;
+  }
+
+  .hero-title {
+    font-family: 'Jules', serif;
+    color: #333;
+    font-size: 60px;
+  }
+
+  .hero-subtitle {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 50px;
+  }
+
+  .italic-letter {
+    font-family: 'Courier Prime', monospace;
+    font-style: italic;
+    color: #333;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  .web-graphic {
+    width: 100%;
+  }
+  
+  
+  /* ABOUT */
+  
+  .about {
+    margin: 60px 30px;
+    max-width: 1200px;
+    display: flex;
+  }
+  
+  .about-left {
+    width: 100%;
+  }
+
+  .about-right {
+    display: none;
+  }
+  
+  .about-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+  
+  .about-copy {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 16px;
+    padding-top: 16px;
+    line-height: 1.375;
+    padding-right: 50px;
+  }
+  
+  .leo-about-img {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+  
+  /* WORK */
+  
+  .work {
+    margin: 60px 30px;
+    
+  }
+  
+  .work-boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .work-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 24px;
+    letter-spacing: 3px;
+    padding-bottom: 50px;
+  }
+  
+  .work-box {
+    width: 100%;
+    background-color: #000;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .work-box-title {
+    font-family: 'Courier Prime', monospace;
+    font-size: 18px;
+    padding: 30px;
+  }
+  
+  .nav-link-home {
+    color: #fff;
+  }
+
+  /* VISUAL DESIGN */
+
+  .visual-design {
+    margin: 60px 30px;
+    max-width: 100%;
+  }
+  
+  .visual-design hr {
+    margin: 30px 0px 0px 0px;
+  }
+  
+  .visual-design-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+  
+  .visual-design-copy {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px;
+  
+  }
+  
+  .project {
+    display: flex;
+    margin: 50px 0px;
+    flex-direction: column;
+  }
+  
+  .project-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 700;
+  }
+  
+  .project-copy {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+  }
+  
+  .project-img {
+    width: 80%;
+    border: 2px solid #333;
+    padding: 10px;
+  }
+
+  .project-right iframe {
+    width: 100%;
+
+  }
+
+  /* WEB DEVELOPMENT */
+
+  .web-development {
+    margin: 60px 30px;
+    max-width: 100%;
+  }
+
+  .web-development hr {
+    margin: 30px 0px 0px 0px;
+  }
+
+  .web-development-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+
+  .web-development-copy {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px;
+
+  }
+
+  .web-link {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+
+  .project-img-dev {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  /* VIDEO */
+
+  .video-work {
+    margin: 60px 30px;
+    max-width: 1200px;
+  }
+
+  .video-work hr {
+    margin: 30px 0px 0px 0px;
+  }
+
+  .video-work-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+
+  .video-work-copy {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px;
+
+  }
+
+
+  /* SOUND EDITING */
+
+  .sound-editing {
+    margin: 60px 30px;
+    max-width: 1200px;
+  }
+
+  .sound-editing hr {
+    margin: 30px 0px 0px 0px;
+  }
+
+  .sound-editing-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+
+  .sound-editing-copy {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px;
+
+  }
+
+  /* PHOTOGRAPHY */
+
+  .photography {
+    margin: 60px 30px;
+    max-width: 1200px;
+  }
+
+  .photography hr {
+    margin: 30px 0px 0px 0px;
+  }
+
+  .photography-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+
+  .photography-copy {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px;
+
+  }
+
+  .img-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  .img-in-gallery {
+    width: 100%;
+    padding: 5px 0px;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    margin: 60px 30px;
+
+  }
+
+  .footer hr {
+    margin: 80px 0px 30px 0px;
+  }
+
+  .photography-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+
+  .photography-copy {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px;
+
+  }
+  
+}
+
+
+/****************
+
+      TABLET 
+
+****************/
+
+
+@media screen and (min-width: 797px) and (max-width: 1280px) {
+
+  body {
+    overflow: none;
+
+  }
+
+  .navbar {
+    margin:  30px;
+    max-width: 100%;
+    padding: 50px 0px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .navbar-brand {
+    font-family: 'Jules', serif;
+    color: #333;
+    font-size: 32px;
+    text-decoration: none;
+    text-align: left;
+    padding-bottom: 30px;
+    
+  }
+
+  .nav-item {
+    padding: 10px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  
+  .nav-link {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 25px 0px;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    background-color: transparent;
+    color: #333;
+  }
+
+  .nav-item-btn {
+    padding: 10px;
+  }
+
+    /* HERO */
+
+  .hero {
+    margin: 60px 30px;
+    display: flex;
+  }
+
+  .hero-left {
+    width: 100%;
+  }
+
+  .hero-right {
+    display: none;
+  }
+
+  .hero-title {
+    font-family: 'Jules', serif;
+    color: #333;
+    font-size: 60px;
+  }
+
+  .hero-subtitle {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 50px;
+  }
+
+  .italic-letter {
+    font-family: 'Courier Prime', monospace;
+    font-style: italic;
+    color: #333;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  .web-graphic {
+    width: 100%;
+  }
+  
+  
+  /* ABOUT */
+  
+  .about {
+    margin: 60px 30px;
+    max-width: 1200px;
+    display: flex;
+  }
+  
+  .about-left {
+    width: 100%;
+  }
+
+  .about-right {
+    display: none;
+  }
+  
+  .about-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+  
+  .about-copy {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 16px;
+    padding-top: 16px;
+    line-height: 1.375;
+    padding-right: 50px;
+  }
+  
+  .leo-about-img {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+  
+  /* WORK */
+  
+  .work {
+    margin: 60px 30px;
+    
+  }
+  
+  .work-boxes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .work-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 24px;
+    letter-spacing: 3px;
+    padding-bottom: 50px;
+  }
+  
+  .work-box {
+    width: 100%;
+    background-color: #000;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .work-box-title {
+    font-family: 'Courier Prime', monospace;
+    font-size: 18px;
+    padding: 30px;
+  }
+  
+  .nav-link-home {
+    color: #fff;
+  }
+
+  /* VISUAL DESIGN */
+
+  .visual-design {
+    margin: 60px 30px;
+    max-width: 100%;
+  }
+  
+  .visual-design hr {
+    margin: 50px 20px 20px 0px;
+  }
+  
+  .visual-design-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+  
+  .visual-design-copy {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px;
+  
+  }
+  
+  .project {
+    display: flex;
+    margin: 50px 0px;
+    flex-direction: column;
+  }
+  
+  .project-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 700;
+  }
+  
+  .project-copy {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+  }
+  
+  .project-img {
+    width: 80%;
+    border: 2px solid #333;
+    padding: 10px;
+  }
+
+  /* WEB DEVELOPMENT */
+
+  .web-development {
+    margin: 60px 30px;
+    max-width: 100%;
+  }
+
+  .web-development hr {
+    margin: 80px 80px 80px 0px;
+  }
+
+  .web-development-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+
+  .web-development-copy {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px;
+
+  }
+
+  .web-link {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+
+  .project-img-dev {
+    width: auto;
+  }
+
+  /* VIDEO */
+
+  .video-work {
+    margin: 60px 30px;
+    max-width: 1200px;
+  }
+
+  .video-work hr {
+    margin: 80px 0px 80px 0px;
+  }
+
+  .video-work-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+
+  .video-work-copy {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px;
+
+  }
+
+
+  /* SOUND EDITING */
+
+  .sound-editing {
+    margin: 60px 30px;
+    max-width: 1200px;
+  }
+
+  .sound-editing hr {
+    margin: 80px 0px 80px 0px;
+  }
+
+  .sound-editing-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+
+  .sound-editing-copy {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px;
+
+  }
+
+  /* PHOTOGRAPHY */
+
+  .photography {
+    margin: 60px 30px;
+    max-width: 1200px;
+  }
+
+  .photography hr {
+    margin: 80px 0px 80px 0px;
+  }
+
+  .photography-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+
+  .photography-copy {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px;
+
+  }
+
+  /* FOOTER */
+
+  .footer {
+    margin: 60px 30px;
+
+  }
+
+  .footer hr {
+    margin: 80px 0px 30px 0px;
+  }
+
+  .photography-title {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+
+  .photography-copy {
+    font-family: 'Courier Prime', monospace;
+    color: #333;
+    font-size: 18px;
+    padding-top: 20px;
+
+  }
+  
 }

@@ -10,6 +10,7 @@ import WebDevelopment from "./components/Web-Development/web-development";
 import VideoWork from "./components/Video/video";
 import SoundEditing from "./components/Sound-Editing/sound-editing";
 import Photography from "./components/Photography/photography";
+import Footer from "./components/Footer/footer";
 
 ReactDOM.render(
   <Router>
@@ -22,6 +23,7 @@ ReactDOM.render(
       <Route path="/video" element={<VideoWork />} />
       <Route path="/sound-editing" element={<SoundEditing />} />
     </Routes>
+    <Footer />
   </Router>,
 
   document.getElementById("root")

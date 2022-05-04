@@ -45,6 +45,10 @@ function Navbar() {
                   Sound Editing
                 </NavLink>
               </li>
+
+              <li className="nav-item-btn">
+                <a className="nav-item-contact" href="mailto:contact@leomelo.com">Get in touch</a>
+              </li>
        
             </ul>
           </div>

@@ -7,7 +7,7 @@ class About extends React.Component {
           <div className="about">
             <div className="about-left">
                 <h3 className="about-title">about_</h3>
-                <p className="about-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum sapien sed purus viverra, quis posuere mauris malesuada. Morbi ex dolor, luctus sodales tristique vitae, tristique non lorem. Vestibulum in lacinia erat, a finibus arcu. Nunc neque lacus, volutpat vel leo sit amet, pretium pulvinar ligula.</p>
+                <p className="about-copy">I am a Visual Designer &amp; Front-End Web Developer, with experience in Content Creation, UX &amp; UI, Design Thinking and Digital Marketer living in London for over six years. A very enthusiastic, fast-learner and dedicated worker, my experience includes companies such as Thomson Reuters and start-ups where I was responsible for their digital assets. The combination of my Law Degree, Visual Design, Front-End Web Development and experience in Music Marketing has allowed me to work in a diverse portfolio of roles. And I am always looking for the next challenge in my career.</p>
             </div>
             <div className="about-right">
                 <img className="leo-about-img" alt="about image" src={LeoMelo} />

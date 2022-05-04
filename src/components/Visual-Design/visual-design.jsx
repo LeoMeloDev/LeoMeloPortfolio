@@ -8,7 +8,7 @@ class VisualDesign extends React.Component {
       return (
           <div className="visual-design">
                 <h3 className="visual-design-title">visual design_</h3>
-                <p className="visual-design-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum sapien sed purus viverra, quis posuere mauris malesuada. Morbi ex dolor, luctus sodales tristique vitae, tristique non lorem. Vestibulum in lacinia erat, a finibus arcu. Nunc neque lacus, volutpat vel leo sit amet, pretium pulvinar ligula.</p>
+                <p className="visual-design-copy">Exploring mood boards, colours, fonts and values, my work in Visual Design is focused on achieving the best web experience for the user.</p>
                 
                 <hr/>
 
@@ -16,7 +16,7 @@ class VisualDesign extends React.Component {
                 <div className="project">
                     <div className="project-left">
                         <h4 className="project-title">SQFT Capital</h4>
-                        <p className="project-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum sapien sed purus viverra, quis posuere mauris malesuada. Morbi ex dolor, luctus sodales tristique vitae, tristique non lorem. Vestibulum in lacinia erat, a finibus arcu. Nunc neque lacus, volutpat vel leo sit amet, pretium pulvinar ligula.</p> 
+                        <p className="project-copy">Hired to improve their online app for the construction and real estate market, I worked together with the SQFT Capital team to achieve their main goals for the project: a more visually engaging format for their application, as well an intuitive interface for any user can understand the process.</p> 
                     </div>
                     <div className="project-right">
                         <img className="project-img" alt="SQFT Capital Image Sample" src={SQFT} />
@@ -27,7 +27,7 @@ class VisualDesign extends React.Component {
                 <div className="project">
                     <div className="project-left">
                         <h4 className="project-title">Bucket List Music UK</h4>
-                        <p className="project-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum sapien sed purus viverra, quis posuere mauris malesuada. Morbi ex dolor, luctus sodales tristique vitae, tristique non lorem. Vestibulum in lacinia erat, a finibus arcu. Nunc neque lacus, volutpat vel leo sit amet, pretium pulvinar ligula.</p> 
+                        <p className="project-copy">A website dedicated to music reviews, they were looking for a more modern interface that would allow the visitor easy access to the latest music reviews, as well as more intuitive access to previous reviews. This project included a research into the best fonts and colours for easy readability and more engaging content.</p> 
                     </div>
                     <div className="project-right">
                         <img className="project-img" alt="Bucket List Music Image Sample" src={BLMUK} />
@@ -38,7 +38,7 @@ class VisualDesign extends React.Component {
                 <div className="project">
                     <div className="project-left">
                         <h4 className="project-title">Dental Practice Manager</h4>
-                        <p className="project-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum sapien sed purus viverra, quis posuere mauris malesuada. Morbi ex dolor, luctus sodales tristique vitae, tristique non lorem. Vestibulum in lacinia erat, a finibus arcu. Nunc neque lacus, volutpat vel leo sit amet, pretium pulvinar ligula.</p> 
+                        <p className="project-copy">Dental Practice Magazine is an online magazine that hosts a series of different content types, including articles, videos, podcasts, and others. This project included a research into the best fonts and structure to allow new subscribers the ability to easily create an account and access the full extent of content.</p> 
                     </div>
                     <div className="project-right">
                         <img className="project-img" alt="Dental Practice Manager Image Sample" src={DPM} />
