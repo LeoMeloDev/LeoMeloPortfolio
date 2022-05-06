@@ -21,8 +21,19 @@ class VideoWork extends React.Component {
                         <iframe src="https://player.vimeo.com/video/582677822?h=01b8eb274e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Fernanda &amp;amp; Richard Civil Wedding"></iframe>
                     </div>
                 </div>
+
+                {/* Lake District */}
+                <div className="project">
+                    <div className="project-left">
+                        <h4 className="project-title">Lake District - Aerial View</h4>
+                        <p className="project-copy">Join us on an aerial view of one of the most beautiful and iconic places in the United Kingdom. Filmed using DJI Drone and Edited in Final Cut Pro.</p> 
+                    </div>
+                    <div className="project-right">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/9pCYdAcx1P8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
          
-                {/* Bucket List Music UK */}
+                {/* Sloane Square */}
                 <div className="project">
                     <div className="project-left">
                         <h4 className="project-title">Sloane Square - ft. The London Ginger - a.k.a. Raquel Sol</h4>
